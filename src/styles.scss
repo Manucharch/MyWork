@@ -280,6 +280,20 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  font-family: var(--ff-primery);
+  font-size: var(--fs-body);
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .flex-w {
   display: flex;
   justify-content: center;
@@ -291,7 +305,7 @@ html {
   display: inline-block;
   width: 150px;
   padding: 0.7em 1em;
-  border: 2px solid var(--clr-light);
+  border: 2px solid var(--clr-dark);
   border-radius: 0.7em;
   background: var(--clr-accent);
   color: var(--clr-dark);
