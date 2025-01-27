@@ -1,0 +1,13 @@
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+
+  margin: auto;
+
+  border: none;
+  &:hover {
+    scale: 1;
+  }
+}

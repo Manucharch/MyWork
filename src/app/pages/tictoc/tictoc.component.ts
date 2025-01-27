@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { BackToHomeComponent } from '../../components/back-to-home/back-to-home.component';
 
 @Component({
   selector: 'app-tictoc',
-  imports: [],
+  imports: [BackToHomeComponent],
   templateUrl: './tictoc.component.html',
-  styleUrl: './tictoc.component.scss'
+  styleUrl: './tictoc.component.scss',
 })
-export class TictocComponent {
-
-}
+export class TictocComponent {}

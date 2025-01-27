@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { BackToHomeComponent } from '../../components/back-to-home/back-to-home.component';
 
 @Component({
   selector: 'app-picker',
-  imports: [],
+  imports: [BackToHomeComponent],
   templateUrl: './picker.component.html',
-  styleUrl: './picker.component.scss'
+  styleUrl: './picker.component.scss',
 })
-export class PickerComponent {
-
-}
+export class PickerComponent {}
