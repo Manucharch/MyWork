@@ -19,14 +19,14 @@ export const routes: Routes = [
       {
         path: 'tictoc',
         loadComponent: () =>
-          import('./pages/tictoc/tictoc.component').then(
+          import('./components/tictoc/tictoc.component').then(
             (m) => m.TictocComponent
           ),
       },
       {
         path: 'picker',
         loadComponent: () =>
-          import('./pages/picker/picker.component').then(
+          import('./components/picker/picker.component').then(
             (m) => m.PickerComponent
           ),
       },
