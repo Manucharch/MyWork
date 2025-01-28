@@ -1,0 +1,17 @@
+<div class="language-toggle">
+  <div
+    class="flag"
+    [ngStyle]="{
+      'background-image': imageUrl()
+    }"
+  ></div>
+  <div class="language">
+    <select name="language" id="language" (change)="changeLanguage($event)">
+      @for(lang of languages(); track $index) {
+      <option value="{{ lang.code }}" id="{{ lang.code }}">
+        {{ "language." + lang.code | translate }}
+      </option>
+      }
+    </select>
+  </div>
+</div>
