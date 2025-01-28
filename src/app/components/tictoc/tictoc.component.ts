@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-import { BackToHomeComponent } from '../back-to-home/back-to-home.component';
 
 @Component({
   selector: 'app-tictoc',
-  imports: [BackToHomeComponent],
+  imports: [],
   templateUrl: './tictoc.component.html',
   styleUrl: './tictoc.component.scss',
 })

@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from '../../components/header/header.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { TranslateModule } from '@ngx-translate/core';
-import { LanguageToggleComponent } from '../../components/language-toggle/language-toggle.component';
+import { BackToHomeComponent } from '../../components/back-to-home/back-to-home.component';
 
 @Component({
   selector: 'app-home',
@@ -12,7 +12,7 @@ import { LanguageToggleComponent } from '../../components/language-toggle/langua
     TranslateModule,
     HeaderComponent,
     FooterComponent,
-    LanguageToggleComponent,
+    BackToHomeComponent,
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
