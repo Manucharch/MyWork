@@ -1,24 +1,26 @@
 .language-toggle {
-  display: inline-flex;
+  display: flex;
   justify-content: space-around;
   align-items: center;
 
-  border: 1px solid #000;
+  border: 1px solid #3f3f3f;
   border-radius: 0.2em;
 
-  gap: 0.05em;
+  gap: 0.1em;
+
+  width: fit-content;
 
   background-color: var(--clr-accent);
 
-  padding: 0.05em;
-  margin: 1em;
+  padding: 0.1em;
+  margin: 1em auto;
 }
 
 .flag {
   min-width: 40px;
   height: 30px;
-  border: 1px solid #000;
-  border-radius: 0.2em;
+  // border: 1px solid #000000;
+  border-radius: 0.15em;
 }
 
 select {

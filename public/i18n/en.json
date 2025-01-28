@@ -1,11 +1,12 @@
 {
   "home": {
-    "hi": "ჩვენ ვართ",
-    "wk": "ვებკეი"
+    "hi": "We Are",
+    "wk": "WebKey"
   },
 
   "language": {
-    "ge": "ქართული",
-    "en": "ინგლისური"
+    "ge": "Georgian",
+    "en": "English",
+    "es": "Spanish"
   }
 }

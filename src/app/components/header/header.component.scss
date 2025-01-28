@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6em;
+
+  box-shadow: var(--bs);
+  //   border: 1px solid #ccc;
+
+  padding: 0.2em 0.4em;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("../../../../public/imgs/logo.jpg");
+  background-size: cover;
+
+  //   border: 2px solid var(--clr-accent);
+  border-radius: 1em;
+  box-shadow: var(--bs);
+}

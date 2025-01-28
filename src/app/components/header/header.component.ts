@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { LanguageToggleComponent } from '../language-toggle/language-toggle.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
-  imports: [LanguageToggleComponent],
+  imports: [TranslateModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })
