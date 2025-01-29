@@ -1,3 +1,6 @@
+// .main {
+// }
+
 .flex-w {
   margin-top: 2em;
 
@@ -9,4 +12,41 @@
   min-width: 160px;
 
   background-color: blueviolet;
+}
+
+.card {
+  display: inline-flex;
+  margin: 1em auto;
+
+  width: 250px;
+  height: 300px;
+
+  flex-direction: column;
+
+  box-shadow: var(--bs);
+}
+
+.card-header {
+  width: 100%;
+  height: 50px;
+
+  background-color: var(--clr-accent);
+
+  border-bottom: 2px solid var(--clr-dark);
+
+  // box-shadow: var(--bs);
+}
+
+h2 {
+  color: var(--clr-light);
+  text-shadow: var(--ts);
+}
+
+.card-body {
+  height: 200px;
+}
+
+.card-info {
+  height: 50px;
+  background-color: var(--clr-dark);
 }

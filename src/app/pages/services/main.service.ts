@@ -12,7 +12,7 @@ export class MainService {
       code: 'ge',
     },
     { country: 'English', flag: 'url(imgs/flags/eu.svg)', code: 'en' },
-    { country: 'Spanish', flag: 'url(imgs/flags/es.svg)', code: 'es' },
+    // { country: 'Spanish', flag: 'url(imgs/flags/es.svg)', code: 'es' },
   ]);
 
   constructor() {}

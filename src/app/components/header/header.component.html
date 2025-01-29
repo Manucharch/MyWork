@@ -1,11 +1,11 @@
 <!-- <p>{{ "home.hi" | translate }}</p> -->
 
 <div class="header">
-  <div class="logo"></div>
+  <div class="logo" routerLink="/"></div>
   <ul class="pages">
-    <li routerLink="/">Home</li>
-    <li routerLink="about">About</li>
-    <li routerLink="projects">Projects</li>
+    <li routerLink="/">{{ "header.home" | translate }}</li>
+    <li routerLink="about">{{ "header.about" | translate }}</li>
+    <li routerLink="projects">{{ "header.projects" | translate }}</li>
   </ul>
   <div class="toggle">
     <app-language-toggle />

@@ -1,7 +1,17 @@
 {
   "home": {
-    "hi": "We Are",
+    "title": "My Work",
     "wk": "WebKey"
+  },
+
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects"
+  },
+
+  "footer": {
+    "rights": "© All Rights Reserved"
   },
 
   "language": {
