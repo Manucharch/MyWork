@@ -9,7 +9,7 @@
 }
 
 .block {
-  min-width: 160px;
+  // min-width: 160px;
 
   background-color: blueviolet;
 }
@@ -47,6 +47,9 @@ h2 {
 }
 
 .card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
   background-color: var(--clr-dark);
 }

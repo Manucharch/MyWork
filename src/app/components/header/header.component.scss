@@ -33,6 +33,8 @@ li {
     box-shadow: var(--bs);
     border-radius: 1em;
     color: var(--clr-accent);
+    outline: 2px solid var(--clr-dark);
+    // font-weight: bolder;
   }
 }
 

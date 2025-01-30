@@ -1,0 +1,60 @@
+.go-to-btn {
+  position: relative;
+  //   margin: 20px;
+
+  padding-left: 0.3em;
+
+  width: 100px;
+  height: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+
+  background-color: var(--clr-accent);
+
+  &:hover {
+    cursor: pointer;
+    scale: 1.1;
+    justify-content: space-between;
+    .arrow,
+    p {
+      display: flex;
+    }
+  }
+  z-index: 1;
+}
+
+.arrow {
+  //   content: "";
+  display: none;
+
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 85%;
+
+  width: 30px;
+  height: 30px;
+
+  transform: rotate(45deg);
+
+  border-top-left-radius: 0.3em;
+  border-bottom-right-radius: 0.3em;
+
+  border-bottom-left-radius: 100%;
+
+  background-color: var(--clr-accent);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  transform: rotate(-45deg);
+
+  justify-content: center;
+  align-items: center;
+}
