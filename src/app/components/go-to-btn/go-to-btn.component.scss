@@ -42,19 +42,14 @@
 
   transform: rotate(45deg);
 
-  border-top-left-radius: 0.3em;
-  border-bottom-right-radius: 0.3em;
-
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border-top-right-radius: 20%;
   border-bottom-left-radius: 100%;
 
   background-color: var(--clr-accent);
 }
 
-p {
-  padding: 0;
-  margin: 0;
+svg {
   transform: rotate(-45deg);
-
-  justify-content: center;
-  align-items: center;
 }

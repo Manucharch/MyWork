@@ -253,7 +253,7 @@ span {
   --fw-bold: 900;
 
   --clr-light: #fff;
-  --clr-dark: #303030;
+  --clr-dark: hsl(0, 0%, 19%);
   --clr-accent: #16e0bd;
 
   --clr-header: #e0eafc;
@@ -285,6 +285,7 @@ span {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////
 html {
   scroll-behavior: smooth;
+  background-color: var(--clr-dark);
 }
 
 body {
