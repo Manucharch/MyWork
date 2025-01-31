@@ -1,7 +1,7 @@
 <div class="main">
   <h1>{{ "home.title" | translate }}</h1>
 
-  <div class="card">
+  <!-- <div class="card">
     <div class="card-header">
       <h2>Tic Toc</h2>
     </div>
@@ -11,5 +11,13 @@
     <div class="card-info">
       <app-go-to-btn [title]="'TicToc'" [url]="'/tictoc'" />
     </div>
-  </div>
+  </div> -->
+
+  <app-info-card
+    title="Cool Feature"
+    description="This is a fantastic information card component with awesome animations and modern design."
+    icon="fa fa-solid fa-arrows-to-eye"
+    bgColor="#3498db"
+    textColor="#ffffff"
+  />
 </div>

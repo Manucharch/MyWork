@@ -1,0 +1,10 @@
+<div class="card-container" [routerLink]="url()">
+  <div class="card" [style.background]="bgColor()" [style.color]="textColor()">
+    <div class="icon-wrapper">
+      <i [class]="icon()"></i>
+    </div>
+    <h3 class="title">{{ title() }}</h3>
+    <p class="description">{{ description() }}</p>
+    <div class="hover-overlay"></div>
+  </div>
+</div>

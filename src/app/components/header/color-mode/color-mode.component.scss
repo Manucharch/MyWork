@@ -1,0 +1,22 @@
+/* theme-toggle.component.scss */
+:host {
+  display: block;
+}
+
+.theme-toggle {
+  background: var(--button-bg);
+  border: none;
+  border-radius: 50%;
+  color: var(--text-color);
+  cursor: pointer;
+  padding: 0.8rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+}
