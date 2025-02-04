@@ -1,4 +1,4 @@
-<div class="main">
+<div>
   <h1>{{ "home.title" | translate }}</h1>
 
   <!-- <div class="card">
@@ -12,12 +12,23 @@
       <app-go-to-btn [title]="'TicToc'" [url]="'/tictoc'" />
     </div>
   </div> -->
+  <section class="flex-w">
+    <app-info-card
+      url="/tictoc"
+      title="Tic Toc"
+      description="This is a fantastic information card component with awesome animations and modern design."
+      icon="fa fa-solid fa-arrows-to-eye"
+      bgColor="var(--primary)"
+      textColor="var(--text-color)"
+    />
 
-  <app-info-card
-    title="Cool Feature"
-    description="This is a fantastic information card component with awesome animations and modern design."
-    icon="fa fa-solid fa-arrows-to-eye"
-    bgColor="var(--primary)"
-    textColor="var(--text-color)"
-  />
+    <app-info-card
+      url="/picker"
+      title="Cool Feature"
+      description="This is a fantastic information card component with awesome animations and modern design."
+      icon="fa fa-solid fa-arrows-to-eye"
+      bgColor="var(--primary)"
+      textColor="var(--text-color)"
+    />
+  </section>
 </div>

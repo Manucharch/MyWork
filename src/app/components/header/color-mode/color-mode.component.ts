@@ -16,6 +16,7 @@ export class ColorModeComponent {
 
   constructor() {
     const savedTheme = localStorage.getItem('theme') || 'light';
+    this.mode = savedTheme;
     this.setTheme(savedTheme);
   }
 
