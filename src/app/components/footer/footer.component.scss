@@ -2,13 +2,17 @@
   background: var(--clr-header);
   display: flex;
   // flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 
   margin-top: 1em;
   padding: 0.2em 0.4em;
 
   box-shadow: var(--bs1);
+}
+
+.footer-item {
+  flex: 1;
 }
 
 .year {
@@ -30,6 +34,16 @@
   margin: 0 0.2em;
 }
 
-.logo {
-  margin: 5px;
+p {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 0.1em;
+  }
 }
