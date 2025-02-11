@@ -1,23 +1,16 @@
 <div>
-  <h1>{{ "home.title" | translate }}</h1>
+  <section class="title">
+    <h1>{{ "home.title" | translate }}</h1>
+  </section>
 
-  <!-- <div class="card">
-    <div class="card-header">
-      <h2>Tic Toc</h2>
-    </div>
-    <div class="card-body">
-      <p>Card Body</p>
-    </div>
-    <div class="card-info">
-      <app-go-to-btn [title]="'TicToc'" [url]="'/tictoc'" />
-    </div>
-  </div> -->
+  <section class="rainbow"></section>
+
   <section class="flex-w">
     <app-info-card
       url="/tictoc"
       title="Tic Toc"
       description="This is a fantastic information card component with awesome animations and modern design."
-      icon="fa fa-solid fa-arrows-to-eye"
+      icon="imgs/logo.jpg"
       bgColor="var(--primary)"
       textColor="var(--text-color)"
     />
@@ -26,7 +19,7 @@
       url="/picker"
       title="Cool Feature"
       description="This is a fantastic information card component with awesome animations and modern design."
-      icon="fa fa-solid fa-arrows-to-eye"
+      icon="imgs/flags/es.svg"
       bgColor="var(--primary)"
       textColor="var(--text-color)"
     />

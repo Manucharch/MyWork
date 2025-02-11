@@ -10,7 +10,7 @@ import { RouterLink } from '@angular/router';
 export class InfoCardComponent {
   title = input<string>('Default Title');
   description = input<string>('Default description text');
-  icon = input<string>('fas fa-info-circle');
+  icon = input<string>('');
   bgColor = input<string>('#2c3e50');
   textColor = input<string>('#ffffff');
   url = input<string>('/tictoc');
