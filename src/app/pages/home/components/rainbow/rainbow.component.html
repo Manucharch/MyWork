@@ -1,0 +1,85 @@
+<div class="rainbowApp">
+  <!-- <div>hello</div> -->
+  <!-- <div class="arc">
+    <div class="card card1">
+      <app-info-card
+        url="/tictoc"
+        title="Tic Toc"
+        description="This is a fantastic information card component with awesome animations and modern design."
+        icon="imgs/logo.jpg"
+        bgColor="var(--primary)"
+        textColor="var(--text-color)"
+      />
+    </div>
+
+    <div class="move-bottons back">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        viewBox="0 0 512 512"
+        fill="var(--clr-light)"
+      >
+        <path
+          d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM116.7 244.7l112-112c4.6-4.6 11.5-5.9 17.4-3.5s9.9 8.3 9.9 14.8l0 64 96 0c17.7 0 32 14.3 32 32l0 32c0 17.7-14.3 32-32 32l-96 0 0 64c0 6.5-3.9 12.3-9.9 14.8s-12.9 1.1-17.4-3.5l-112-112c-6.2-6.2-6.2-16.4 0-22.6z"
+        />
+      </svg>
+    </div>
+
+    <div class="card card2">
+      <app-info-card
+        url="/picker"
+        title="Cool Feature"
+        description="This is a fantastic information card component with awesome animations and modern design."
+        icon="imgs/flags/es.svg"
+        bgColor="var(--primary)"
+        textColor="var(--text-color)"
+      />
+    </div>
+    <div class="move-bottons forward">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="30"
+        height="30"
+        viewBox="0 0 512 512"
+        fill="var(--clr-light)"
+      >
+        <path
+          d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zm395.3 11.3l-112 112c-4.6 4.6-11.5 5.9-17.4 3.5s-9.9-8.3-9.9-14.8l0-64-96 0c-17.7 0-32-14.3-32-32l0-32c0-17.7 14.3-32 32-32l96 0 0-64c0-6.5 3.9-12.3 9.9-14.8s12.9-1.1 17.4 3.5l112 112c6.2 6.2 6.2 16.4 0 22.6z"
+        />
+      </svg>
+    </div>
+
+    <div class="card card3">
+      <app-info-card
+        url="/picker"
+        title="Cool Feature"
+        description="This is a fantastic information card component with awesome animations and modern design."
+        icon="imgs/flags/es.svg"
+        bgColor="var(--clr-light)"
+        textColor="var(--text-color)"
+      />
+    </div>
+  </div> -->
+  <!-- <div class="cards">
+    <div class="card card1">Card1</div>
+    <div class="card card2">Card2</div>
+    <div class="card card3">Card3</div>
+    <div class="card card4">Card4</div>
+  </div> -->
+</div>
+
+<!-- <div class="container">
+  <div class="box"></div>
+  <div class="box box2"></div>
+</div> -->
+
+<div class="cards-container">
+  <div
+    class="card"
+    *ngFor="let card of cards; let i = index"
+    [style.transform]="'rotate(' + (90 - i * 22.5) + 'deg)'"
+  >
+    Card {{ i + 1 }}
+  </div>
+</div>
